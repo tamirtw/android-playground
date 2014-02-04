@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/tamir/Projects/Android/Android_Course/Week2/ActivityLabTest/app/src/instrumentTest/assets" />
+    </dataSet>
+
+</merger>

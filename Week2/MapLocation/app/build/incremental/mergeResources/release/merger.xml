@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/tamir/Projects/Android/Android_Course/Week2/MapLocation/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/tamir/Projects/Android/Android_Course/Week2/MapLocation/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="main"
+                path="/Users/tamir/Projects/Android/Android_Course/Week2/MapLocation/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/tamir/Projects/Android/Android_Course/Week2/MapLocation/app/src/main/res/layout-land/main.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                path="/Users/tamir/Projects/Android/Android_Course/Week2/MapLocation/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="location_string" >Enter Location
+                </string>
+                <string name="show_map_string" >Show Map
+                </string>
+            </file>
+            <file
+                path="/Users/tamir/Projects/Android/Android_Course/Week2/MapLocation/app/src/main/res/values-it/strings.xml"
+                qualifiers="it" >
+                <string name="location_string" >Digita l\'indirizzo
+                </string>
+                <string name="show_map_string" >Mostra la mappa
+                </string>
+            </file>
+        </source>
+        <source path="/Users/tamir/Projects/Android/Android_Course/Week2/MapLocation/app/build/res/rs/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/tamir/Projects/Android/Android_Course/Week2/MapLocation/app/src/release/res" />
+    </dataSet>
+
+</merger>
